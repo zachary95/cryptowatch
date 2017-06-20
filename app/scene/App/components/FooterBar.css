@@ -1,0 +1,17 @@
+.container {
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: #F55;
+  padding: 15px 5px;
+}
+
+.reload {
+  padding-left: 10px;
+}
+
+.changeCurrency {
+  display: block;
+  float: right;
+}

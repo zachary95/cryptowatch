@@ -1,0 +1,19 @@
+.container {
+  padding: 15px 20px;
+  &:hover .lastUpdate {
+    opacity: 1;
+  }
+}
+
+.lastUpdate {
+  display: block;
+  margin-top: 5px;
+  font-size: 10px;
+  color: #C1C1C1;
+  opacity: 0;
+  transition: opacity .2s;
+}
+
+.lastUpdate--updating {
+  opacity: .9;
+}

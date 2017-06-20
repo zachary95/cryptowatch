@@ -1,0 +1,18 @@
+{
+  "name": "cryptowatch",
+  "productName": "Cryptowatch",
+  "version": "0.1.0",
+  "description": "Keep an eye on crypto currencies for you.",
+  "main": "./main.prod.js",
+  "author": {
+    "name": "Zachary E. Dahan",
+    "email": "hello@zachary.pm",
+    "url": "https://github.com/TheSuperFly"
+  },
+  "scripts": {
+    "postinstall": "npm rebuild --runtime=electron --target=1.6.6 --disturl=https://atom.io/download/atom-shell --build-from-source"
+  },
+  "license": "MIT",
+  "dependencies": {
+  }
+}

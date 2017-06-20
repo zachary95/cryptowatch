@@ -1,0 +1,16 @@
+@import '../../styles/mixins.css';
+
+.container {
+  @include clearfix();
+  padding: 5px 0;
+}
+
+.deviseCode {
+  float: left;
+  font-size: 1.3em;
+}
+
+.amount {
+  float: right;
+  font-size: 1.3em;
+}

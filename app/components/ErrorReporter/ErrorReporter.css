@@ -1,0 +1,32 @@
+.container {
+  background: #222;
+  color: #FFF;
+  overflow: hidden;
+  padding: 5px 3px;
+}
+
+.scrollWrapper {
+  width: 260%;
+  animation: scrollWrapper 10s infinite linear;
+  animation-delay: 3s;
+}
+
+.message {
+  margin: 0;
+  font-size: 12px;
+}
+
+@keyframes scrollWrapper {
+  0% {
+    opacity: 0;
+  }
+  5% {
+    opacity: 1;
+  }
+  25% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

@@ -1,0 +1,43 @@
+@import 'normalize.css';
+
+::selection {
+  background: #FF5555;
+  color: #FFF;
+}
+
+body {
+  position: relative;
+  height: 100vh;
+  color: #222;
+  background: #F0F0F0;
+  font-family: "Courier New", serif;
+  overflow-y: hidden;
+}
+
+h2 {
+  margin: 0;
+  font-size: 2.25rem;
+  font-weight: bold;
+  letter-spacing: -0.025em;
+  color: #fff;
+}
+
+p {
+  font-size: 24px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: white;
+  opacity: 0.75;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 1;
+  text-decoration: none;
+  cursor: pointer;
+}
