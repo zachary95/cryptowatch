@@ -143,7 +143,7 @@
     "html-webpack-plugin": "^2.28.0",
     "identity-obj-proxy": "^3.0.0",
     "jsdom": "^11.0.0",
-    "minimist": "^1.2.0",
+    "minimist": "^1.2.3",
     "postcss-calc": "^6.0.0",
     "postcss-easings": "^1.0.0",
     "postcss-focus": "^2.0.0",
