@@ -119,7 +119,7 @@
     "cross-spawn": "^5.1.0",
     "css-loader": "^0.28.3",
     "devtron": "^1.4.0",
-    "electron": "^1.6.10",
+    "electron": "^9.4.0",
     "electron-builder": "^18.0.1",
     "electron-devtools-installer": "^2.2.0",
     "eslint": "^3.19.0",
